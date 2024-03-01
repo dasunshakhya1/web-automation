@@ -1,4 +1,4 @@
-package com.devlab.utils.jsonreader;
+package com.devlab.utils.jsonreader.core;
 
 
 import java.lang.annotation.ElementType;

@@ -1,6 +1,9 @@
-package com.devlab.utils.jsonreader;
+package com.devlab.utils.jsonreader.core;
 
 
+
+import com.devlab.utils.jsonreader.exception.JsonFileNotFoundException;
+import com.devlab.utils.jsonreader.exception.KeyFieldNotFoundException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

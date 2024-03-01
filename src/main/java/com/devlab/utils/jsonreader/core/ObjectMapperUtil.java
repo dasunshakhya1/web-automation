@@ -1,4 +1,4 @@
-package com.devlab.utils.jsonreader;
+package com.devlab.utils.jsonreader.core;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

@@ -1,4 +1,4 @@
-package com.devlab.utils.jsonreader;
+package com.devlab.utils.jsonreader.exception;
 
 public class KeyFieldNotFoundException extends  RuntimeException{
 

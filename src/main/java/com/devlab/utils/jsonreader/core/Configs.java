@@ -1,4 +1,4 @@
-package com.devlab.utils.jsonreader;
+package com.devlab.utils.jsonreader.core;
 
 
 public final class Configs {

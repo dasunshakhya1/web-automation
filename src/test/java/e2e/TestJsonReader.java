@@ -1,8 +1,7 @@
 package e2e;
 
 import com.devlab.models.Login;
-import com.devlab.utils.jsonreader.JsonReader;
-import lombok.extern.java.Log;
+import com.devlab.utils.jsonreader.core.JsonReader;
 import org.junit.jupiter.api.Test;
 
 public class TestJsonReader {

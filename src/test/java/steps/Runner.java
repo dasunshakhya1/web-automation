@@ -1,6 +1,9 @@
 package steps;
 
 
+import com.devlab.core.UIHandler;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.SelectClasspathResource;
@@ -14,4 +17,11 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @SelectClasspathResource("features")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
 public class Runner {
+@After(order = 1)
+    public static void tearDown(){
+    UIHandler.quitDriver();
 }
+}
+
+
+

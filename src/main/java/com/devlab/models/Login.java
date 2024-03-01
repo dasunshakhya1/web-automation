@@ -1,7 +1,7 @@
 package com.devlab.models;
 
 
-import com.devlab.utils.jsonreader.JsonId;
+import com.devlab.utils.jsonreader.core.JsonId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
